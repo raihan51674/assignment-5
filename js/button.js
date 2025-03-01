@@ -38,17 +38,17 @@ for (let i = 0; i < allBtn.length; i++) {
     completeBtn.style.backgroundColor = "rgb(211, 211, 211)";
 
     let history = `
-        <div class="bg-[#F4F7FF] p-2 m-2 mt-4 px-3 rounded-md flex flex-col gap-3">
-            <div class="flex items-center gap-2">
-                <p class="text-[14px] opacity-60 font-[500]">Completed Task :</p>
-                <p class="inline-block p-1 px-2 bg-white text-[14px] font-[500] opacity-75 rounded-[4px]">${company}</p>
+        <div class="flex flex-col gap-3 bg-[#F4F7FF] p-2 m-2 mt-4 px-3 rounded-md ">
+            <div class="flex  gap-2 items-center">
+                <p class="text-[14px]  font-[500] opacity-60">Completed Task :</p>
+                <p class="text-[14px] font-[500] inline-block p-1 px-2 bg-white  opacity-75 rounded-[4px]">${company}</p>
             </div>
             
-            <h1 class="text-[18px] font-semibold text-blue-500">${title}</h1>
-            <p class="p-2 rounded-md text-gray-500 text-[14px] bg-white font-[600]">
+            <h1 class="text-[18px] text-blue-500 font-semibold ">${title}</h1>
+            <p class="text-[14px] p-2 rounded-md text-gray-500  bg-white font-[600]">
                 ${task}
             </p>
-            <p class="text-[14px] text-blue-500 opacity-60 font-[500]">Time : ${time} </p>
+            <p class="text-[14px] font-[500] text-blue-500 opacity-60 ">Time : ${time} </p>
         </div>
         `;
 
